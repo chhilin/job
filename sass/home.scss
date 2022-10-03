@@ -1,0 +1,57 @@
+.main{
+    &-top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../image/home.png);
+        padding: 10px;
+        height: 40vh;
+        h2{
+            color: white;
+            text-align: center;
+        }
+    }
+    .top{
+        border: 1px;
+        background: black;
+        padding: 50px;
+        opacity: 0.7;
+    }
+    select, input, button{
+        padding: 10px;
+    }
+    &-center{
+        display: flex;
+        flex-direction: column;
+        .lists{
+            display: flex;
+            justify-content: space-between;
+        }
+        h1{
+            margin: 50px 0 0 30px ;
+            font-size: 50px;
+        }
+        li{
+            list-style: none;
+            line-height: 2;
+        }
+    }
+    &-bottom{
+        display: flex;
+        border: 10px;
+        background: rgb(224, 223, 223);
+        padding: 10px;
+    }
+    a{
+        text-decoration: none;
+        color: black;        
+    }
+    button{
+        background-color: green;
+        height:43px;
+        width: 90px;
+    }
+}
+@import 'component/footer';
+@import 'component/jobs-detail';
+

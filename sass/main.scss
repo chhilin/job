@@ -1,0 +1,22 @@
+@import 'component/nav';
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main-bottom{
+    display: flex;
+    border: 10px;
+    background: rgb(224, 223, 223);
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;        
+}
+button{
+    background-color: green;
+    height:43px;
+    width: 90px;
+}
+@import 'component/footer';

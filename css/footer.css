@@ -1,0 +1,37 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+  margin-left: 30px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+  margin-left: 9rem;
+}
+.contact i {
+  margin: 10px;
+}
+
+.content {
+  padding: 10px;
+  margin-left: 17rem;
+}
+.content .qrcode {
+  padding: 10px;
+  display: flex;
+}
+.content .qrcode-first {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  line-height: 2;
+}
+.content .qrcode-second {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  line-height: 2;
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,139 @@
+.main-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../image/home.png);
+  padding: 10px;
+  height: 40vh;
+}
+.main-top h2 {
+  color: white;
+  text-align: center;
+}
+.main .top {
+  border: 1px;
+  background: black;
+  padding: 50px;
+  opacity: 0.7;
+}
+.main select, .main input, .main button {
+  padding: 10px;
+}
+.main-center {
+  display: flex;
+  flex-direction: column;
+}
+.main-center .lists {
+  display: flex;
+  justify-content: space-between;
+}
+.main-center h1 {
+  margin: 50px 0 0 30px;
+  font-size: 50px;
+}
+.main-center li {
+  list-style: none;
+  line-height: 2;
+}
+.main-bottom {
+  display: flex;
+  border: 10px;
+  background: rgb(224, 223, 223);
+  padding: 10px;
+}
+.main a {
+  text-decoration: none;
+  color: black;
+}
+.main button {
+  background-color: green;
+  height: 43px;
+  width: 90px;
+}
+
+.main-bottom {
+  margin-top: 30px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+  margin-left: 30px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+  margin-left: 9rem;
+}
+.contact i {
+  margin: 5px;
+  font-size: x-large;
+}
+
+.content {
+  padding: 10px;
+  margin-left: 17rem;
+}
+.content .qrcode {
+  padding: 10px;
+  display: flex;
+}
+.content .qrcode-first {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  line-height: 2;
+}
+.content .qrcode-second {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  line-height: 2;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.lists {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-center {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+ul li {
+  list-style: none;
+  margin-left: 10px;
+}
+ul span {
+  margin-left: 10px;
+}
+
+.jobs-detail {
+  display: flex;
+  padding: 10px;
+  font-size: 10px;
+}
+.jobs-detail .inp {
+  display: flex;
+}
+.jobs-detail .inp i {
+  padding: 10px;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+}/*# sourceMappingURL=home.css.map */

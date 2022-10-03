@@ -1,0 +1,112 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background-color: rgb(217, 217, 241);
+}
+main {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    height: 90vh;
+    // box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: 50px solid greenyellow;
+}
+
+.main {
+    &-left {
+        
+        border-bottom-left-radius: 15px;
+        border-right: none;
+        border: 1px solid rgb(204, 201, 201);
+        border-top-left-radius: 15px;
+        background-color: aquamarine;
+        background-image: url(../image/What-is-Job-Sharing.jpg);
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        background-size: 110%;
+        width: 50%;
+
+    }
+    &-right {
+        background-color:rgba(236, 233, 233, 0.781);
+        display: flex;
+        border-left: none;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        border: 1px solid rgb(204, 201, 201);
+        width: 45%;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.btn button{
+    width: 30%;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    // border: none;
+    cursor: pointer;   
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    background:rgba(212, 211, 211, 0.63);
+    
+}
+button:hover{
+    background-color:teal;
+    cursor: pointer;
+}
+.text input,
+.text button{
+    width: 78%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+.text button{
+    display: flex;
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+
+}
+
+.fg-pws{
+    font-size: small;
+}
+.text input
+{
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+.text label{
+    margin-left: 30px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 20px;
+}
+.fa{
+    font-size: x-large;
+}
